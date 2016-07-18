@@ -10,6 +10,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-color: #FFF;
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -19,10 +23,9 @@ section {
 
 button {
   background-color: #E5B6D5;
-  border-top: 10px solid #B2479A;
-  border-bottom: 10px solid #B2479A;
-  border-left: 10px solid #CC7FB5;
-  border-right: 10px solid #CC7FB5;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #B2479A #CC7FB5 #B2479A #CC7FB5;
   color: #FFF;
   font-size: 150%;
   font-weight: 700;
@@ -33,10 +36,7 @@ button {
 
 button:hover {
   background-color: #B2479A;
-  border-top: 10px solid #CC7FB5;
-  border-bottom: 10px solid #CC7FB5;
-  border-left: 10px solid #E5B6D5;
-  border-right: 10px solid #E5B6D5;
+  border-color: #CC7FB5 #E5B6D5 #CC7FB5 #E5B6D5;
 }
 
 .random {
