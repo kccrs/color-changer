@@ -15,23 +15,23 @@ body {
 }
 
 section {
-  display: flex;
-  justify-content: center;
-  height: 600px;
   align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: center;
 }
 
 button {
   background-color: #E5B6D5;
-  border-width: 10px;
-  border-style: solid;
   border-color: #B2479A #CC7FB5 #B2479A #CC7FB5;
+  border-style: solid;
+  border-width: 10px;
   color: #FFF;
   font-size: 3vw;
   font-weight: 700;
+  height: 20%;
   letter-spacing: 0.15em;
   width: 25%;
-  height: 20%;
 }
 
 button:hover {
@@ -54,18 +54,17 @@ button:hover {
   }
 
   button {
-    width: 70%;
     font-size: 5vw;
+    width: 70%;
   }
 
   .random {
-    margin: 80px 0 -180px 0;
     height: 25%;
+    margin: 80px 0 -180px 0;
   }
 
   .reset {
-    margin-left: 0;
     height: 10%;
+    margin-left: 0;
   }
-
 }
